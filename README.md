@@ -1,8 +1,9 @@
-
-## Description
+# Vinagre panel applet for Mate desktop 1.8
 
 vinagre-applet is a replacement of the original Vinagre applet
 designed for the Mate desktop 1.8 based on Gnome 2.
+
+Vinagre is a remote desktop client using VNC, ssh and RDP protocols.
 
 
 ## Requirements
@@ -32,6 +33,7 @@ Then you can build vinagre-applet executable and install it :
 make
 make install
 ```
+
 or create a debian binary package :
 ```
 dpkg-buildpackage -b -us -uc
@@ -42,9 +44,6 @@ dpkg-buildpackage -b -us -uc
 
 vinagre-applet is a free software written by Jean Diraison in 2015.
 It is covered by version 3 of the GNU General Public License.
-vinagre-applet is designed to replace the default Vinagre applet
-for the Mate desktop, based on Gnome2.
 
-Vinagre is a remote desktop client for VNC, ssh and RDP protocols
-created and developed by Jonh Wendell and David King.
+Vinagre was created and developed by Jonh Wendell and David King.
 
