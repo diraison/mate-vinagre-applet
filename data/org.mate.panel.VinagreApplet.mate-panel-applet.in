@@ -1,0 +1,11 @@
+[Applet Factory]
+Id=VinagreAppletFactory
+Location=@APPLET_LOCATION@/vinagre-applet
+Name=Vinagre Applet Factory
+Description=Vinagre applet factory
+
+[VinagreApplet]
+Name=Vinagre Applet
+Description=Vinagre shows remote Windows, Mac OS X and Linux desktops
+Icon=application-x-vnc
+MateComponentId=OAFIID:MATE_VinagreApplet
