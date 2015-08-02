@@ -1,0 +1,12 @@
+Source: vinagre-applet
+Maintainer: Jean Diraison <jean.diraison@ac-rennes.fr>
+Section: x11
+Priority: optional
+Standards-Version: 3.9.6
+Build-Depends: debhelper (>= 9), libmate-panel-applet-dev, libgtk2.0-dev, libglib2.0-dev, libxml2-dev
+
+Package: vinagre-applet
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Vinagre applet for Mate desktop
+ Vinagre applet for Mate is an applet for Vinagre remote desktop client.
