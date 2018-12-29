@@ -2,7 +2,7 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.69])
-AC_INIT([vinagre-applet], [0.06], [Jean Diraison <jean.diraison@ac-rennes.fr>])
+AC_INIT([vinagre-applet], [0.07], [Jean Diraison <jean.diraison@ac-rennes.fr>])
 AM_INIT_AUTOMAKE([-Wall])
 AC_CONFIG_SRCDIR([src/vinagre-applet.h])
 AC_CONFIG_HEADERS([src/config.h:src/config.h.in])
@@ -13,9 +13,9 @@ AC_PROG_MAKE_SET
 AC_PROG_SED
 
 # Checks for libraries.
-PKG_CHECK_MODULES([GLIB2], [glib-2.0 >= 2.26])
-PKG_CHECK_MODULES([GTK2], [gtk+-2.0])
-PKG_CHECK_MODULES([MATEPANEL], [libmatepanelapplet-4.0 >= 1.8])
+PKG_CHECK_MODULES([GLIB2], [glib-2.0 >= 2.50])
+PKG_CHECK_MODULES([GTK3], [gtk+-3.0])
+PKG_CHECK_MODULES([MATEPANEL], [libmatepanelapplet-4.0 >= 1.16])
 PKG_CHECK_MODULES([XML2], [libxml-2.0])
 
 # Checks for header files.

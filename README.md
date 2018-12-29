@@ -1,7 +1,7 @@
-# Vinagre panel applet for Mate desktop 1.8
+# Vinagre panel applet for Mate desktop 1.16
 
 vinagre-applet is a replacement of the original Vinagre applet
-designed for the Mate desktop 1.8 based on Gnome 2.
+designed for the Mate desktop 1.16 based on Gnome 2.
 
 Vinagre is a remote desktop client using VNC, ssh and RDP protocols.
 
@@ -14,9 +14,9 @@ vinagre-applet required libxml2 to parse vinagre xml bookmarks.
 ## Building howto
 
 To build vinagre-applet some development libraries are required :
-* libmate-panel-applet
-* libgtk2.0
-* libglib2.0
+* libmate-panel-applet-4-1
+* libgtk-3-0
+* libglib2.0-0
 * libxml2
 
 Use autotools to generate configure and Makefile files :
